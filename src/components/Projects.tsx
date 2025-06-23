@@ -28,7 +28,12 @@ const Projects = () => {
 
   const fetchGitHubRepos = async () => {
     try {
-      const response = await fetch('https://api.github.com/users/kartik-singhhh03/repos?sort=updated&per_page=20');
+      const response = await fetch('https://api.github.com/users/kartik-singhhh03/repos?sort=updated&per_page=20',{
+  headers: {
+        Authorization: `token ${import.meta.env.VITE_GITHUB_TOKEN}`
+  }
+
+      });
       if (!response.ok) {
         throw new Error('Failed to fetch repositories');
       }
