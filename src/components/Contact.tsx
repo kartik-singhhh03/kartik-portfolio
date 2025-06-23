@@ -40,12 +40,7 @@ const Contact = () => {
       value: 'kartiksingh3337@gmail.com',
       href: 'mailto:kartiksingh3337@gmail.com'
     },
-    {
-      icon: Phone,
-      label: 'Phone',
-      value: '+91-9110940616',
-      href: 'tel:+919110940616'
-    },
+    
     {
       icon: MapPin,
       label: 'Location',
