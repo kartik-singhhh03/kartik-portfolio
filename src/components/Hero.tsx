@@ -91,7 +91,7 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <a
-              href="/Kartik_Singh_Resume_fullstack100.pdf"
+              href="https://drive.google.com/file/d/1UipNY81BV460x6mdXLmOxHTMmU3eN3Oe/view?usp=drive_link"
               download
               className="flex items-center space-x-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 glow group"
             >
