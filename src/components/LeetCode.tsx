@@ -20,13 +20,13 @@ const LeetCode = () => {
     // Since LeetCode doesn't have a public API, we'll use mock data
     // In a real implementation, you might need to use a third-party service or scraper
     const mockStats: LeetCodeStats = {
-      totalSolved: 150,
-      totalQuestions: 2500,
-      easySolved: 75,
-      mediumSolved: 60,
-      hardSolved: 15,
-      acceptanceRate: 85.5,
-      ranking: 125000
+      totalSolved: 50,
+      totalQuestions: 3596,
+      easySolved: 24,
+      mediumSolved: 20,
+      hardSolved: 1,
+      acceptanceRate: 76.4,
+      ranking: 2142073
     };
 
     setTimeout(() => {

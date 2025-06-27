@@ -21,11 +21,11 @@ const DigitalStore = () => {
     const mockProducts: Product[] = [
       {
         id: '1',
-        title: 'React.js Complete Course',
-        description: 'Master React.js from basics to advanced concepts with hands-on projects and real-world examples.',
-        price: '$29',
-        image: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=500',
-        url: 'https://coffe.ee/kartiksinghh03'
+        title: 'Interactive Solar System - Web Simulation',
+        description: 'Experience the wonders of space with this Interactive Solar System simulation! Built using HTML5, CSS3, and JavaScript.',
+        price: '$5',
+        image: 'https://cdn.buymeacoffee.com/uploads/rewards/2025-03-02/1/083332_Screenshot_20250302_140319.png@1200w_0e.png',
+        url: 'buymeacoffee.com/kartiksinghh03/e/380928'
       },
       {
         id: '2',
@@ -178,7 +178,7 @@ const DigitalStore = () => {
           className="text-center mt-12"
         >
           <a
-            href="https://coffe.ee/kartiksinghh03"
+            href="https://my-store-app-beta.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 px-8 py-4 bg-gradient-to-r from-green-600 to-blue-600 rounded-lg font-semibold hover:from-green-700 hover:to-blue-700 transition-all duration-300 glow group"
