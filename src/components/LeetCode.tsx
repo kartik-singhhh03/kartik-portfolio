@@ -180,6 +180,12 @@ const LeetCode = () => {
               href="https://leetcode.com/u/kartik-singhhh03/"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => {
+    window.gtag?.("event", "click", {
+      event_category: "External Link",
+      event_label: "LeetCode Profile",
+    });
+  }}
               className="inline-flex items-center space-x-2 px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 rounded-lg font-semibold hover:from-orange-700 hover:to-red-700 transition-all duration-300 glow group"
             >
               <Code className="w-5 h-5 group-hover:rotate-12 transition-transform" />

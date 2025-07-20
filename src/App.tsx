@@ -8,7 +8,14 @@ import DigitalStore from './components/DigitalStore';
 import LeetCode from './components/LeetCode';
 import Contact from './components/Contact';
 import FreelancePage from './pages/FreelancePage';
+
 import './App.css';
+
+declare global {
+  interface Window {
+    gtag: (...args: unknown[]) => void;
+  }
+}
 
 function HomePage() {
   return (

@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Download, ExternalLink, Github, Linkedin, Twitter, Instagram } from 'lucide-react';
-declare global {
-  interface Window {
-    gtag: (...args: unknown[]) => void;
-  }
-}
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
@@ -154,6 +149,12 @@ const Hero = () => {
                 transition={{ delay: 1.2 + index * 0.1 }}
                 className="p-3 glass rounded-full hover:bg-white/20 transition-all duration-300 group"
                 aria-label={social.label}
+                onClick={() => {
+        window.gtag?.("event", "click", {
+          event_category: "Social Icon",
+          event_label: social.label, // e.g., 'GitHub', 'LinkedIn'
+        });
+      }}
               >
                 <social.icon className="w-6 h-6 group-hover:text-blue-400 transition-colors" />
               </motion.a>
