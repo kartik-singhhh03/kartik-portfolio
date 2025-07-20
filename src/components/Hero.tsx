@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Download, ExternalLink, Github, Linkedin, Twitter, Instagram } from 'lucide-react';
+declare global {
+  interface Window {
+    gtag: (...args: unknown[]) => void;
+  }
+}
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
@@ -92,7 +97,13 @@ const Hero = () => {
           >
             <a
               href="https://drive.google.com/file/d/1pJJT8L6uPE1smpNABFwSnuDDlXyANidL/view?usp=sharing"
-              download
+              download 
+              onClick={() => {
+    window.gtag?.("event", "click", {
+      event_category: "CTA",
+      event_label: "Download Resume",
+    });
+  }}
               className="flex items-center space-x-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 glow group"
             >
               <Download className="w-5 h-5 group-hover:animate-bounce" />
@@ -108,6 +119,20 @@ const Hero = () => {
             >
               <ExternalLink className="w-5 h-5 group-hover:rotate-45 transition-transform" />
               <span>View Projects</span>
+            </a>
+            <a
+              href="mailto:kartiksingh37193@gmail.com"
+              download
+              onClick={() => {
+    window.gtag?.("event", "click", {
+      event_category: "CTA",
+      event_label: "Hire me",
+    });
+  }}
+              className="flex items-center space-x-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 glow group"
+            >
+              <Download className="w-5 h-5 group-hover:animate-bounce" />
+              <span>Hire me</span>
             </a>
           </motion.div>
 
