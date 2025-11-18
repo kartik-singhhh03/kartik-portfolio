@@ -91,7 +91,7 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <a
-              href="https://drive.google.com/file/d/1jCfLkkMSLer1cxxAzPvC5rb0BJ89QtFM/view?usp=sharing"
+              href="https://drive.google.com/file/d/126bw3X4JVkgZygSOZXrkodQvtOG8g-7L/view?usp=drive_link"
               download 
               onClick={() => {
     window.gtag?.("event", "click", {
