@@ -11,11 +11,9 @@ export const profile = {
   name: 'Kartik Singh',
   title: 'Full Stack Developer',
   tagline: 'Building digital experiences that matter',
-
-
-  description: 'Software Development Engineer skilled in full-stack & backend development using React, Next.js, Node.js, TypeScript,PostgreSQL, Redis, Docker & Kubernetes. Strong DSA and system design. Built production-grade real-time and scalable applications.',
->>>>>>> main
+  description: 'I am a passionate developer who loves creating beautiful, functional, and user-friendly applications. With expertise in modern web technologies, I transform ideas into reality.',
   location: 'Ghaziabad, Uttar Pradesh, India',
   avatar: '/avatar.png',
   resumeUrl: '/resume.pdf',
 }
+//profile config

@@ -34,9 +34,7 @@ export default function ProjectsPage() {
       <div className="max-w-7xl mx-auto">
         <PageHeader
           title="Projects"
-
-          description="Showcasing my impactful projects and technical achievements."
->>>>>>> main
+          description="Showcasing impactful projects and technical achievements."
         />
 
         {/* Filter Tabs */}
@@ -144,3 +142,4 @@ export default function ProjectsPage() {
     </div>
   )
 }
+//project page
