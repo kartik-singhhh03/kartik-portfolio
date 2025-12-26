@@ -9,7 +9,7 @@ This site showcases my work, projects, freelancing, and digital products in a sl
 
 ## 🌐 Live Website
 
-🔗 [https://kartik-portfolio-sigma.vercel.app/](https://kartik-portfolio-sigma.vercel.app/) 
+🔗 [https://kartikdev.me](Portfolio Link) 
 ---
 
 ## 🧠 Features
