@@ -13,9 +13,9 @@ export const experience: Experience[] = [
   {
     id: '1',
     title: 'Full Stack Developer',
-    company: 'Tech Solutions Inc.',
+    company: 'InternPe',
     location: 'Remote',
-    period: 'Jan 2024 - Present',
+    period: 'Aug 2024 - Sep 2024',
     description: 'Working on building scalable web applications and leading frontend architecture decisions.',
     highlights: [
       'Led the migration of legacy codebase to React and TypeScript',
@@ -26,10 +26,10 @@ export const experience: Experience[] = [
   },
   {
     id: '2',
-    title: 'Frontend Developer Intern',
-    company: 'StartupXYZ',
+    title: 'Web Developer ',
+    company: 'DSDL club KIET',
     location: 'Ghaziabad, India',
-    period: 'Jun 2023 - Dec 2023',
+    period: 'Jun 2023 - present',
     description: 'Developed and maintained user interfaces for the company\'s main product.',
     highlights: [
       'Built reusable component library used across 5 projects',
@@ -41,12 +41,12 @@ export const experience: Experience[] = [
   {
     id: '3',
     title: 'Bachelor of Technology',
-    company: 'ABES Engineering College',
+    company: 'KIET Group of Institutions',
     location: 'Ghaziabad, India',
-    period: '2020 - 2024',
+    period: '2023 - 2027',
     description: 'Studied Computer Science and Engineering with focus on software development.',
     highlights: [
-      'CGPA: 8.5/10',
+      'CGPA: 8.0/10',
       'Led technical team in college fest',
       'Won multiple hackathons',
     ],
