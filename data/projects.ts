@@ -55,8 +55,10 @@ export const projects: Project[] = [
     title: 'Portfolio Website',
     description: 'This very portfolio website built with Next.js, featuring multiple themes and smooth animations.',
     techStack: ['Next.js', 'TypeScript', 'Framer Motion', 'Tailwind CSS'],
-    github: 'https://github.com/kartik-singhhh03/portfolio',
-    live: 'https://kartik-singh.dev',
+    github: 'https://github.com/kartik-singhhh03/kartik-portfolio',
+    live: 'https://kartikdev.me',
+    image: '/portfolio.png',
     category: 'personal',
   },
 ]
+//demo commit
